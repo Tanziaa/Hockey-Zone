@@ -47,10 +47,11 @@
 
     <header class="md:container md:mx-auto">
         <!-- nav section -->
-        <nav class="mb-10 ml-32">
+        <nav class="mb-10 ml-4 sm:ml-32"> 
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
+                        
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
@@ -58,17 +59,21 @@
                                     d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </div>
+                        
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 pr-20 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            class="menu menu-sm dropdown-content mt-3 pr-4 sm:pr-30 z-[1] p-2 shadow bg-base-100 rounded-box sm:w-52">
                             <li><a class="text-[#FF4240]">Home</a></li>
                             <li><a>About</a></li>
                             <li><a>Pages</a></li>
                             <li><a>Blog</a></li>
                             <li><a>Contact</a></li>
+                        </ul>
                     </div>
+                    
                     <a class="btn btn-ghost lg:text-5xl text-2xl font-extrabold">Hockey<span
                             class="text-[#FF4240]">Z</span></a>
                 </div>
+                
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
                         <li><a class="text-[#FF4240]">Home</a></li>
@@ -78,12 +83,15 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <div class="lg:navbar-end">
-                    <i class="fa-solid fa-magnifying-glass mr-2"></i>
-                    <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+
+                <div>
+                    <a class="btn btn-ghost bg-[#FF4240] text-white">Get Started</a>
                 </div>
             </div>
+            
+            
         </nav>
+        
 
         <!-- Banner section -->
         <div class="">
@@ -135,7 +143,8 @@
         <!-- Professional Hockeys Club section -->
         <section class="text-center my-24">
             <h2 class="text-5xl font-extrabold mb-5">Professional Hockey Clubs</h2>
-            <p class="lg:max-w-3xl mx-auto">Professional Hockey Club, an elite organization, showcases exceptional
+            <p class="lg:max-w-3xl mx-auto text-[#13131899]">Professional Hockey Club, an elite organization, showcases
+                exceptional
                 talent, fostering competitive spirit and teamwork. It prioritizes skill development, sportsmanship, and
                 offers thrilling entertainment through high-caliber hockey matches, uniting fans and inspiring aspiring
                 athletes.</p>
@@ -147,7 +156,9 @@
                     <div class="radial-progress ml-20 text-red-500" style="--value:87;" role="progressbar">87%</div>
                     <div class="card-body justify-center-center">
                         <h2 class="text-2xl font-bold">Prayer Facility</h2>
-                        <p>Dedicated prayer facility, offering a serene space for spiritual reflection and worship for all visitors.</p>
+                        <p class="text-[#13131899]">Dedicated prayer facility, offering a serene space for spiritual
+                            reflection and worship for
+                            all visitors.</p>
                     </div>
                 </div>
                 <!-- second card -->
@@ -155,7 +166,9 @@
                     <div class="radial-progress ml-20 text-green-500" style="--value:95;" role="progressbar">95%</div>
                     <div class="card-body justify-center-center">
                         <h2 class="text-2xl font-bold">Experienced Coach</h2>
-                        <p>Seasoned coach, expert in player development, strategy, and fostering winning team dynamics in hockey.</p>
+                        <p class="text-[#13131899]">Seasoned coach, expert in player development, strategy, and
+                            fostering winning team dynamics
+                            in hockey.</p>
                     </div>
                 </div>
                 <!-- third card -->
@@ -163,7 +176,9 @@
                     <div class="radial-progress ml-20 text-yellow-500" style="--value:90;" role="progressbar">90%</div>
                     <div class="card-body justify-center-center">
                         <h2 class="text-2xl font-bold">Senior Player</h2>
-                        <p>Seasoned athlete, a cornerstone on the ice. Experience excellence with our senior player's skill and leadership.</p>
+                        <p class="text-[#13131899]">Seasoned athlete, a cornerstone on the ice. Experience excellence
+                            with our senior player's
+                            skill and leadership.</p>
                     </div>
                 </div>
                 <!-- forth card -->
@@ -171,16 +186,71 @@
                     <div class="radial-progress ml-20 text-blue-500" style="--value:80;" role="progressbar">80%</div>
                     <div class="card-body justify-center-center">
                         <h2 class="text-2xl font-bold">Training Ground</h2>
-                        <p>Experience excellence at our Hockey Training Ground—where skill meets dedication for unparalleled player development and success.</p>
+                        <p class="text-[#13131899]">Experience excellence at our Hockey Training Ground—where skill
+                            meets dedication for
+                            unparalleled player development and success.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- footer section -->
-        <footer>
+        <!-- Program Sections -->
+        <section class="text-center my-24 mt-30">
+            <h2 class="text-5xl font-extrabold mb-5">Program Sections</h2>
+            <p class="lg:max-w-3xl mx-auto text-[#13131899] mb-20">Explore our hockey program sections for a
+                comprehensive
+                breakdown of skills
+                development, strategy sessions, and team updates. From power plays to penalty kills, dive into
+                specialized content designed to elevate your understanding and performance on the ice.</p>
 
-        </footer>
+
+            <div class="flex gap-5 ml-56 mb-5">
+                <!-- first card -->
+                <div class="card w-[573px]  image-full">
+                    <figure><img src="Images/2.png" alt="" /></figure>
+                    <div class="card-body pt-32">
+                        <h2 class="card-title">Junior Program</h2>
+                        <p class="text-left">Youth hockey development: <br>Junior Program fosters skill and team spirit.
+                        </p>
+                        <div class="card-actions">
+                            <button class="btn bg-[#FF4240] border-none mb-8 text-white">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- second card -->
+                <div class="card w-[573px] image-full">
+                    <figure><img src="Images/3.png" alt="" /></figure>
+                    <div class="card-body pt-32">
+                        <h2 class="card-title">Teenager Program</h2>
+                        <p class="text-left">Elevate teens' hockey skills<br> with our dynamic Teenager Program!</p>
+                        <div class="card-actions">
+                            <button class="btn bg-[#FF4240] border-none mb-8 text-white">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- third card -->
+            <div class="card w-[1170px] image-full ml-56">
+                <figure><img src="Images/4.png" alt="" /></figure>
+                <div class="card-body pt-44">
+                    <h2 class="card-title">Professional Program</h2>
+                    <p class="text-left">Elevate your game with our Professional Program – tailored coaching, advanced
+                        skills training, and elite development for hockey excellence.<br> with our dynamic Teenager
+                        Program!</p>
+                    <div class="card-actions">
+                        <button class="btn bg-[#FF4240] border-none mb-20 text-white">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+    </main>
+
+    <!-- footer section -->
+    <footer>
+
+    </footer>
 </body>
 
 </html>
